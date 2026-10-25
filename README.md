@@ -1,6 +1,6 @@
 # Awesome-Font-Development-Tools
 
-# Top Font Development Tools Ecosystem
+## Top Font Development Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Glyph Outline Editing, Variable Font Axes & Python-Driven Font Engineering*  
