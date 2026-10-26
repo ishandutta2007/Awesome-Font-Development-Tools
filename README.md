@@ -68,109 +68,109 @@ The following commercial software suites and hosted platforms are sorted in **de
 
 The open-source typography ecosystem powers everything from cutting-edge desktop GUI font editors to the command-line build pipelines used by Google Fonts and Adobe. 
 
-Below, all open-source repositories are **sorted in descending order of GitHub star count**. Each project includes a real-time badge linking directly to that repository's stargazers page:
+Below, all open-source repositories are **sorted in descending order of GitHub Stars_Count**. Each project includes a real-time badge linking directly to that repository's stargazers page:
 
-### 1. 🌟 [FontForge](https://github.com/fontforge/fontforge) [![GitHub stars](https://img.shields.io/github/stars/fontforge/fontforge?style=social&color=white)](https://github.com/fontforge/fontforge/stargazers)
+### 1. 🌟 [FontForge](https://github.com/fontforge/fontforge) [![GitHub_Stars](https://img.shields.io/github/stars/fontforge/fontforge?style=social&color=white)](https://github.com/fontforge/fontforge/stargazers)
 - **Primary Focus:** The reference open-source font editor for Linux, Windows, and macOS.
 - **Key Capabilities:** Complete Bézier vector glyph drawing, TrueType/PostScript hinting, OpenType feature coding, format cross-conversion (Type 1, TrueType, OpenType, CID-keyed, SVG, UFO, BDF), and batch scripting via embedded Python. Includes `fontlint` for font validation and `sfddiff` for visual diffing.
 - **License:** GNU GPL v3 / BSD-3-Clause
 
-### 2. 🌟 [HarfBuzz](https://github.com/harfbuzz/harfbuzz) [![GitHub stars](https://img.shields.io/github/stars/harfbuzz/harfbuzz?style=social&color=white)](https://github.com/harfbuzz/harfbuzz/stargazers)
+### 2. 🌟 [HarfBuzz](https://github.com/harfbuzz/harfbuzz) [![GitHub_Stars](https://img.shields.io/github/stars/harfbuzz/harfbuzz?style=social&color=white)](https://github.com/harfbuzz/harfbuzz/stargazers)
 - **Primary Focus:** Universal OpenType text shaping engine.
 - **Key Capabilities:** Used by Chrome, Firefox, Android, and LibreOffice. In font engineering, HarfBuzz's CLI (`hb-shape`, `hb-view`) is the benchmark tool for validating complex script glyph substitution (GSUB), glyph positioning (GPOS), and variable font variations (gvar).
 - **License:** Old MIT
 
-### 3. 🌟 [fontTools](https://github.com/fonttools/fonttools) [![GitHub stars](https://img.shields.io/github/stars/fonttools/fonttools?style=social&color=white)](https://github.com/fonttools/fonttools/stargazers)
+### 3. 🌟 [fontTools](https://github.com/fonttools/fonttools) [![GitHub_Stars](https://img.shields.io/github/stars/fonttools/fonttools?style=social&color=white)](https://github.com/fonttools/fonttools/stargazers)
 - **Primary Focus:** The foundational Python library and CLI suite for font engineering.
 - **Key Capabilities:** Converts binary fonts to XML and back via `ttx`, optimizes fonts via `pyftsubset`, compiles variable font interpolation deltas via `varLib`, compiles OpenType feature files via `feaLib`, and manipulates TrueType/CFF tables programmatically.
 - **License:** MIT
 
-### 4. 🌟 [opentype.js](https://github.com/opentypejs/opentype.js) [![GitHub stars](https://img.shields.io/github/stars/opentypejs/opentype.js?style=social&color=white)](https://github.com/opentypejs/opentype.js/stargazers)
+### 4. 🌟 [opentype.js](https://github.com/opentypejs/opentype.js) [![GitHub_Stars](https://img.shields.io/github/stars/opentypejs/opentype.js?style=social&color=white)](https://github.com/opentypejs/opentype.js/stargazers)
 - **Primary Focus:** JavaScript/TypeScript parser and writer for OpenType and TrueType fonts.
 - **Key Capabilities:** Runs in Node.js and web browsers. Provides low-level access to glyph outlines, converts glyph paths to HTML5 canvas or SVG commands, computes glyph metrics, and exports customized font binaries directly on the client side.
 - **License:** MIT
 
-### 5. 🌟 [woff2](https://github.com/google/woff2) [![GitHub stars](https://img.shields.io/github/stars/google/woff2?style=social&color=white)](https://github.com/google/woff2/stargazers)
+### 5. 🌟 [woff2](https://github.com/google/woff2) [![GitHub_Stars](https://img.shields.io/github/stars/google/woff2?style=social&color=white)](https://github.com/google/woff2/stargazers)
 - **Primary Focus:** Reference C++ compression suite for WOFF 2.0 web fonts.
 - **Key Capabilities:** Developed by Google, uses Brotli entropy compression to compress TTF/OTF binaries into minimal WOFF2 payloads for responsive, high-performance web typography.
 - **License:** Apache-2.0
 
-### 6. 🌟 [fontkit](https://github.com/foliojs/fontkit) [![GitHub stars](https://img.shields.io/github/stars/foliojs/fontkit?style=social&color=white)](https://github.com/foliojs/fontkit/stargazers)
+### 6. 🌟 [fontkit](https://github.com/foliojs/fontkit) [![GitHub_Stars](https://img.shields.io/github/stars/foliojs/fontkit?style=social&color=white)](https://github.com/foliojs/fontkit/stargazers)
 - **Primary Focus:** Advanced font engine for Node.js and modern browser runtimes.
 - **Key Capabilities:** Supports TrueType (.ttf), OpenType (.otf), WOFF, WOFF2, and Apple Advanced Typography (AAT). Offers OpenType layout shaping, kerning, color font tables (COLR/CPAL, SBIX), font subsetting, and variable font variation instance rendering.
 - **License:** Apache-2.0
 
-### 7. 🌟 [AFDKO (Adobe Font Development Kit for OpenType)](https://github.com/adobe-type-tools/afdko) [![GitHub stars](https://img.shields.io/github/stars/adobe-type-tools/afdko?style=social&color=white)](https://github.com/adobe-type-tools/afdko/stargazers)
+### 7. 🌟 [AFDKO (Adobe Font Development Kit for OpenType)](https://github.com/adobe-type-tools/afdko) [![GitHub_Stars](https://img.shields.io/github/stars/adobe-type-tools/afdko?style=social&color=white)](https://github.com/adobe-type-tools/afdko/stargazers)
 - **Primary Focus:** Adobe's reference command-line toolkit for OpenType font authoring.
 - **Key Capabilities:** Compiles OpenType fonts from source glyphs and feature files using `makeotf`, converts between font outline formats with `tx`, audits font health, and checks conformance against Adobe's official feature file specification.
 - **License:** Apache-2.0
 
-### 8. 🌟 [Glyphr Studio](https://github.com/glyphr-studio/Glyphr-Studio-1) [![GitHub stars](https://img.shields.io/github/stars/glyphr-studio/Glyphr-Studio-1?style=social&color=white)](https://github.com/glyphr-studio/Glyphr-Studio-1/stargazers)
+### 8. 🌟 [Glyphr Studio](https://github.com/glyphr-studio/Glyphr-Studio-1) [![GitHub_Stars](https://img.shields.io/github/stars/glyphr-studio/Glyphr-Studio-1?style=social&color=white)](https://github.com/glyphr-studio/Glyphr-Studio-1/stargazers)
 - **Primary Focus:** Beginner-friendly, web- and desktop-based visual font editor.
 - **Key Capabilities:** Pure HTML5/JavaScript vector editor with intuitive cubic Bézier drawing, component reuse across glyphs, ligature creation, kerning pair configuration, and direct OTF/SVG font export.
 - **License:** GNU GPL v3
 
-### 9. 🌟 [fontmake](https://github.com/googlefonts/fontmake) [![GitHub stars](https://img.shields.io/github/stars/googlefonts/fontmake?style=social&color=white)](https://github.com/googlefonts/fontmake/stargazers)
+### 9. 🌟 [fontmake](https://github.com/googlefonts/fontmake) [![GitHub_Stars](https://img.shields.io/github/stars/googlefonts/fontmake?style=social&color=white)](https://github.com/googlefonts/fontmake/stargazers)
 - **Primary Focus:** Automated font compilation engine maintained by Google Fonts.
 - **Key Capabilities:** Compiles Glyphs (.glyphs) and UFO (.ufo) sources into OpenType (CFF) and TrueType (TTF) static binaries as well as single-file variable fonts using fontTools and Cu2Qu.
 - **License:** Apache-2.0
 
-### 10. 🌟 [Fontra](https://github.com/fontra/fontra) [![GitHub stars](https://img.shields.io/github/stars/fontra/fontra?style=social&color=white)](https://github.com/fontra/fontra/stargazers)
+### 10. 🌟 [Fontra](https://github.com/fontra/fontra) [![GitHub_Stars](https://img.shields.io/github/stars/fontra/fontra?style=social&color=white)](https://github.com/fontra/fontra/stargazers)
 - **Primary Focus:** Browser-based, collaborative variable font editor developed by Black Foundry.
 - **Key Capabilities:** Operates directly on Git repositories with zero local desktop installation. Features multi-user simultaneous real-time editing, custom variable font axes design, non-destructive components, and modern WebGL canvas rendering.
 - **License:** GNU LGPL v3
 
-### 11. 🌟 [Runebender](https://github.com/linebender/runebender) [![GitHub stars](https://img.shields.io/github/stars/linebender/runebender?style=social&color=white)](https://github.com/linebender/runebender/stargazers)
+### 11. 🌟 [Runebender](https://github.com/linebender/runebender) [![GitHub_Stars](https://img.shields.io/github/stars/linebender/runebender?style=social&color=white)](https://github.com/linebender/runebender/stargazers)
 - **Primary Focus:** High-performance native font editor written in Rust.
 - **Key Capabilities:** Developed by Raph Levien and the Linebender community. Explores novel spline curves (Euler spirals / Spiro curves) for organic curvature, paired with GPU-accelerated 2D vector drawing via Piet and Kurbo.
 - **License:** Apache-2.0 / MIT
 
-### 12. 🌟 [Font Bakery](https://github.com/fonttools/fontbakery) [![GitHub stars](https://img.shields.io/github/stars/fonttools/fontbakery?style=social&color=white)](https://github.com/fonttools/fontbakery/stargazers)
+### 12. 🌟 [Font Bakery](https://github.com/fonttools/fontbakery) [![GitHub_Stars](https://img.shields.io/github/stars/fonttools/fontbakery?style=social&color=white)](https://github.com/fonttools/fontbakery/stargazers)
 - **Primary Focus:** Definitive automated quality assurance and linting suite for fonts.
 - **Key Capabilities:** Validates font binaries against hundreds of checks covering OpenType specification compliance, family naming consistency, vertical metrics alignment, contour winding directions, and cross-platform rendering bugs.
 - **License:** Apache-2.0
 
-### 13. 🌟 [BirdFont](https://github.com/johanmattssonm/birdfont) [![GitHub stars](https://img.shields.io/github/stars/johanmattssonm/birdfont?style=social&color=white)](https://github.com/johanmattssonm/birdfont/stargazers)
+### 13. 🌟 [BirdFont](https://github.com/johanmattssonm/birdfont) [![GitHub_Stars](https://img.shields.io/github/stars/johanmattssonm/birdfont?style=social&color=white)](https://github.com/johanmattssonm/birdfont/stargazers)
 - **Primary Focus:** Lightweight vector graphics and font editor written in Vala.
 - **Key Capabilities:** Features outline vector drawing, bitmap autotracing, background image guides, kerning pairs, and exports to TTF, EOT, and SVG fonts across Linux, Windows, macOS, and OpenBSD.
 - **License:** GNU GPL v3
 
-### 14. 🌟 [TruFont](https://github.com/trufont/trufont) [![GitHub stars](https://img.shields.io/github/stars/trufont/trufont?style=social&color=white)](https://github.com/trufont/trufont/stargazers)
+### 14. 🌟 [TruFont](https://github.com/trufont/trufont) [![GitHub_Stars](https://img.shields.io/github/stars/trufont/trufont?style=social&color=white)](https://github.com/trufont/trufont/stargazers)
 - **Primary Focus:** Python 3 and Qt-based desktop UFO3 font editor.
 - **Key Capabilities:** Built around open font standards with direct UFO filesystem integration, non-destructive editing, custom script extensions, and interactive kerning tools.
 - **License:** GNU GPL v3
 
-### 15. 🌟 [DrawBot](https://github.com/typemytype/drawbot) [![GitHub stars](https://img.shields.io/github/stars/typemytype/drawbot?style=social&color=white)](https://github.com/typemytype/drawbot/stargazers)
+### 15. 🌟 [DrawBot](https://github.com/typemytype/drawbot) [![GitHub_Stars](https://img.shields.io/github/stars/typemytype/drawbot?style=social&color=white)](https://github.com/typemytype/drawbot/stargazers)
 - **Primary Focus:** Programmatic 2D graphics, specimen book, and font proofing generator for macOS.
 - **Key Capabilities:** Uses concise Python scripting to render animated GIFs, MP4 variable font motion proofs, and publication-ready multi-page PDF specimen sheets.
 - **License:** BSD-3-Clause
 
-### 16. 🌟 [Shift](https://github.com/shift-editor/shift) [![GitHub stars](https://img.shields.io/github/stars/shift-editor/shift?style=social&color=white)](https://github.com/shift-editor/shift/stargazers)
+### 16. 🌟 [Shift](https://github.com/shift-editor/shift) [![GitHub_Stars](https://img.shields.io/github/stars/shift-editor/shift?style=social&color=white)](https://github.com/shift-editor/shift/stargazers)
 - **Primary Focus:** Modern cross-platform font editor written in TypeScript and Rust.
 - **Key Capabilities:** Supports drawing Bézier outlines, setting up variable font designspaces (axes/masters/instances), importing/exporting UFO and Glyphs files, and features Model Context Protocol (MCP) support for AI-assisted font engineering.
 - **License:** Apache-2.0 / MIT
 
-### 17. 🌟 [gftools](https://github.com/googlefonts/gftools) [![GitHub stars](https://img.shields.io/github/stars/googlefonts/gftools?style=social&color=white)](https://github.com/googlefonts/gftools/stargazers)
+### 17. 🌟 [gftools](https://github.com/googlefonts/gftools) [![GitHub_Stars](https://img.shields.io/github/stars/googlefonts/gftools?style=social&color=white)](https://github.com/googlefonts/gftools/stargazers)
 - **Primary Focus:** Google Fonts post-production and continuous integration toolkit.
 - **Key Capabilities:** Suite of Python tools for generating font family metadata (`METADATA.pb`), calculating vertical metrics, running QA diffs, optimizing file sizes, and automating GitHub Actions release pipelines.
 - **License:** Apache-2.0
 
-### 18. 🌟 [fontParts](https://github.com/robotools/fontParts) [![GitHub stars](https://img.shields.io/github/stars/robotools/fontParts?style=social&color=white)](https://github.com/robotools/fontParts/stargazers)
+### 18. 🌟 [fontParts](https://github.com/robotools/fontParts) [![GitHub_Stars](https://img.shields.io/github/stars/robotools/fontParts?style=social&color=white)](https://github.com/robotools/fontParts/stargazers)
 - **Primary Focus:** Unified modern Python API for font and glyph manipulation.
 - **Key Capabilities:** Successor to RoboFab. Provides a standard object-oriented interface (`RFont`, `RGlyph`, `RContour`, `RPoint`) implemented across Glyphs, RoboFont, and headless fontTools environments.
 - **License:** MIT
 
-### 19. 🌟 [Bezy](https://github.com/bezy-org/bezy) [![GitHub stars](https://img.shields.io/github/stars/bezy-org/bezy)](https://github.com/bezy-org/bezy/stargazers)
+### 19. 🌟 [Bezy](https://github.com/bezy-org/bezy) [![GitHub_Stars](https://img.shields.io/github/stars/bezy-org/bezy)](https://github.com/bezy-org/bezy/stargazers)
 - **Primary Focus:** Experimental GPU-rendered font editor written in Rust on the Bevy game engine.
 - **Key Capabilities:** Features native desktop performance, UFO file format ingestion, WebAssembly browser compilation, and keyboard-centric vector editing.
 - **License:** Apache-2.0 / MIT
 
-### 20. 🌟 [fontFeatures](https://github.com/simoncozens/fontFeatures) [![GitHub stars](https://img.shields.io/github/stars/simoncozens/fontFeatures?style=social&color=white)](https://github.com/simoncozens/fontFeatures/stargazers)
+### 20. 🌟 [fontFeatures](https://github.com/simoncozens/fontFeatures) [![GitHub_Stars](https://img.shields.io/github/stars/simoncozens/fontFeatures?style=social&color=white)](https://github.com/simoncozens/fontFeatures/stargazers)
 - **Primary Focus:** Python library for programmatic representation and manipulation of OpenType features.
 - **Key Capabilities:** Deconstructs, modifies, and re-assembles OpenType substitution and positioning lookups in Python without writing raw AFDKO feature code.
 - **License:** BSD-3-Clause
 
-### 21. 🌟 [ufoLib2](https://github.com/fonttools/ufoLib2) [![GitHub stars](https://img.shields.io/github/stars/fonttools/ufoLib2?style=social&color=white)](https://github.com/fonttools/ufoLib2/stargazers)
+### 21. 🌟 [ufoLib2](https://github.com/fonttools/ufoLib2) [![GitHub_Stars](https://img.shields.io/github/stars/fonttools/ufoLib2?style=social&color=white)](https://github.com/fonttools/ufoLib2/stargazers)
 - **Primary Focus:** High-speed Python library for reading, writing, and manipulating Unified Font Object (UFO v3) packages.
 - **Key Capabilities:** Designed as a drop-in, performance-optimized replacement for defcon in automated build pipelines like fontmake.
 - **License:** Apache-2.0
@@ -195,7 +195,7 @@ Contributions from type designers, font engineers, and software developers are w
 
 1. **Fork** this repository.
 2. **Add or update** entries in `README.md` adhering to the table or open-source list format.
-3. Ensure every open-source addition includes a valid `shields.io` star badge (`style=social&color=white`) linking to its stargazers page.
+3. Ensure every open-source addition includes a valid `shields.io` Stars_Badge (`style=social&color=white`) linking to its stargazers page.
 4. Ensure every SaaS addition includes verified pricing and specific free trial / free tier terms.
 5. Submit a **Pull Request** with a descriptive summary of your changes.
 
